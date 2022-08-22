@@ -15,7 +15,7 @@ void loop() {
 
  if (distanceNow < 5 ) {
     digitalWrite(relayPin , HIGH);
-    delay(700);
+    delay(300);
     digitalWrite(relayPin , LOW);
     delay(2500);
  }
